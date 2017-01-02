@@ -123,8 +123,7 @@ const SizeHOC = containerStyleObj => (...WrappedComponents) => {
                     float:indivStyle.centered? 'none':'left',
                     position:indivStyle.centered? 'block':'relative',
                     marginLeft:indivStyle.centered? 'auto':'incorrect',
-                    marginRight:indivStyle.centered? 'auto':'incorrect',
-                    backgroundColor: indivStyle.freezeSize? 'red':'green'
+                    marginRight:indivStyle.centered? 'auto':'incorrect'
 
                   }
 
