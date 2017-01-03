@@ -230,7 +230,7 @@ const SizeHOC = containerStyleObj => (...WrappedComponents) => {
 
     return <div style={{position:'relative'}}>
       {
-        TotalSized.map(Item=><Item key={Math.random()}/>)
+        TotalSized.map(( Item, inx )=><Item key={inx}/>)
       }
     </div>;
 
